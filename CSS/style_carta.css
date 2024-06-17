@@ -1,0 +1,128 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../IMG/fondop.jpg);
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+}
+/*NAVEGACION*/
+.navbar ul {
+  position: relative;
+}
+
+.navbar ul a {
+  font-size: 20px;
+  padding: 0px;
+  color: #fffdfc;
+}
+
+.navbar ul a:hover {
+  color: #ce967b;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h2 {
+  margin-left: 33.4%;
+  color: #ffffff;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card img {
+  width: 180px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.card p {
+  color: #ffffff;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #323337;
+  color: #fffdfc;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+.wrap-footer {
+  display: grid;
+  grid-template-columns: 30% 20% 15% 20%;
+  column-gap: 5%;
+  padding: 4rem;
+
+  max-width: 1200px;
+}
+
+.element-footer h5 {
+  margin: 1rem 0;
+}
+
+.text-element-footer li {
+  line-height: 2;
+}
+
+.text-element-footer li a {
+  color: white;
+}
+
+.rs-element-footer ul {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.rs-element-footer img {
+  width: 35px;
+}
+
+.rs-element-footer li {
+  margin-right: 1rem;
+}
+
+.footer-creds {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  color: #fffdfc;
+  font-size: 0.9rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.legal-creds ul {
+  display: flex;
+  flex-flow: row;
+}
+
+.legal-creds ul li {
+  padding-right: 1rem;
+}
+
+.legal-creds ul a {
+  color: #fffdfc;
+  font-size: 0.9rem;
+}

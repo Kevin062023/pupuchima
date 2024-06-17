@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+video {
+  width: 100%;
+}
+
+.absoluto {
+  width: 150%;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+}
+
+h1::after{
+    display: block;
+    width: 50%;
+    height: 10px;
+    content: "";
+    margin: auto;
+    background: white;
+}*/
+
+.navegador {
+  font-size: 28px;
+  font-weight: 120;
+  z-index: 100;
+  color: white;
+  top: 30%;
+  left: 85%;
+  position: absolute;
+  justify-content: center;
+}
+
+.navegador ul {
+  display: flex;
+  padding: 20px;
+}
+
+.navegador li {
+  margin-right: 2.4rem;
+  display: inline-block;
+}
+.navegador li a {
+  color: whitesmoke;
+}
+
+.navegador a:hover {
+  color: rgb(231, 215, 76);
+}
+
+.navegador li:first-child {
+  background-color: transparent;
+
+  border-radius: 0.2rem;
+}
+
+section h2 {
+  font-size: 40px;
+  font-weight: 10;
+  z-index: 100;
+  color: white;
+  margin-bottom: 30px;
+  width: 50%;
+
+  top: 35%;
+  left: 0.6px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.Inf p {
+  font-size: 40px;
+  font-weight: 10;
+  z-index: 100;
+  color: white;
+  margin-bottom: 30px;
+  width: 50%;
+
+  top: 50%;
+  left: 0.6px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+section h3 {
+  font-size: 30px;
+  font-weight: 10;
+  z-index: 100;
+  color: white;
+  margin-bottom: 30px;
+  width: 50%;
+
+  top: 45%;
+  left: 0.6px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #323337;
+  color: #fffdfc;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+}
+.wrap-footer {
+  display: grid;
+  grid-template-columns: 30% 20% 15% 20%;
+  column-gap: 5%;
+  padding: 4rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+.element-footer h5 {
+  margin: 1rem 0;
+}
+.text-element-footer li {
+  line-height: 2;
+}
+.text-element-footer li a {
+  color: white;
+}
+.rs-element-footer ul {
+  display: flex;
+  flex-flow: wrap;
+}
+.rs-element-footer img {
+  width: 35px;
+}
+.rs-element-footer li {
+  margin-right: 1rem;
+}
+.footer-creds {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  color: #fffdfc;
+  font-size: 0.9rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.legal-creds ul {
+  display: flex;
+  flex-flow: row;
+}
+.legal-creds ul li {
+  padding-right: 1rem;
+}
+.legal-creds ul a {
+  color: #fffdfc;
+  font-size: 0.9rem;
+}
